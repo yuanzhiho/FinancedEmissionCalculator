@@ -1,0 +1,11 @@
+id,borrower,asset_class,sector,outstanding,attribution_value,scope1_tco2e,scope2_tco2e,scope3_tco2e,data_quality,currency,notes
+BL-001,Harbour Peak Properties Ltd,business_loans,real_estate,2000000000,80000000000,950000,180000,4200000,2,HKD,Unlisted developer; denominator is total equity + debt
+CB-001,Lion Rock Utilities Ltd,corporate_bonds,utilities,1500000000,120000000000,8200000,410000,3100000,1,HKD,Listed; denominator is EVIC
+LE-001,Pearl River Logistics Ltd,listed_equity,transport,800000000,45000000000,2100000,350000,8900000,2,HKD,Listed shipping group; EVIC
+BL-002,Dragon Gate Aviation Ltd,business_loans,transport,1200000000,28000000000,1800000,220000,6500000,3,HKD,Listed airline; PCAF uses EVIC for listed borrowers
+CRE-001,Canton Road Tower SPV,commercial_real_estate,real_estate,1800000000,6000000000,12500,8400,2100,3,HKD,Grade-A office; denominator is property value at origination
+MG-001,Synthetic HK residential pool A,mortgages,residential,3500000000,8750000000,0,18500,4200,4,HKD,Anonymised mortgage pool; building energy estimated
+SB-001,HKSAR Government Bond 2031,sovereign_bonds,sovereign,500000000,3100000000000,35000000,8200000,0,3,HKD,Denominator is illustrative PPP-adjusted GDP (not official)
+PF-001,Lamma Offshore Wind Project,project_finance,utilities,900000000,4500000000,0,0,18000,2,HKD,Greenfield project; construction-phase Scope 3 only in sample
+UE-001,Southern Cross Manufacturing Ltd,unlisted_equity,industrials,400000000,6200000000,310000,95000,780000,2,HKD,PE-style minority stake; total equity + debt
+MV-001,Fleet finance — Kowloon vans,motor_vehicle_loans,transport,120000000,210000000,0,0,18500,4,HKD,ICE van fleet; tank-to-wheel in Scope 3 for this sample
