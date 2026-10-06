@@ -1,31 +1,6 @@
 # Financed emissions calculator
 
-Python prototype of the [PCAF](https://carbonaccountingfinancials.com/) financed-emissions formula — the method banks use to attribute a share of a client's greenhouse-gas inventory to a loan or investment.
-
-Built as a public, recruiter-readable sample of production-style Python: typed models, CSV ingestion, portfolio aggregation, tests, and a CLI. All numbers in `data/sample_portfolio.csv` are **synthetic**. This is not PCAF-assured software and is **not for regulatory reporting**.
-
-## Why this exists
-
-A bank's own operations are small compared with the emissions of the companies it finances. Those financed emissions sit in GHG Protocol **Scope 3 Category 15** and are the backbone of climate-risk work at HKMA-supervised institutions (portfolio heatmaps, NZBA pathways, TCFD/ISSB disclosures).
-
-PCAF's core identity is:
-
-```
-financed emissions = attribution factor × counterparty (or asset) emissions
-attribution factor  = outstanding amount / attribution value
-```
-
-| Asset class | Attribution value (denominator) |
-|---|---|
-| Listed equity, corporate bonds | EVIC (enterprise value including cash) |
-| Business loans to listed companies | EVIC |
-| Business loans / unlisted equity | Total equity + debt |
-| Project finance | Total project equity + debt |
-| Commercial real estate, mortgages | Property value at origination |
-| Motor vehicle loans | Vehicle value at origination |
-| Sovereign bonds | PPP-adjusted GDP |
-
-Default calculation uses **Scope 1 + 2**. Scope 3 can be switched on when the book has it. Data quality follows PCAF scores **1 (verified reported) → 5 (estimated)**, averaged outstanding-weighted at portfolio level.
+Created this program with the help of AI, just for my own interest in learning how FE is calculated in real-job setting within a bank.
 
 ## Quick start
 
