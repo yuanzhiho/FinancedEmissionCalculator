@@ -7,8 +7,8 @@ Created this program with the help of AI, just for my own interest in learning h
 Requires Python 3.11+.
 
 ```bash
-git clone https://github.com/<your-github-username>/financed-emissions.git
-cd financed-emissions
+git clone https://github.com/yuanzhiho/FinancedEmissionCalculator.git
+cd FinancedEmissionCalculator
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -e ".[dev]"
